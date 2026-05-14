@@ -1,13 +1,13 @@
 
-// Fecha objetivo: 10 enero 2026 a las 20:00
-const targetDate = new Date("January 23, 2026 20:00:00").getTime();
+// Fecha objetivo: 27 mayo 2026 a las 17:00
+const targetDate = new Date("May 27, 2026 17:00:00").getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
     const distance = targetDate - now;
 
     if (distance <= 0) {
-        document.getElementById("countdown").innerHTML = "<h3>¡El concierto ha comenzado!</h3>";
+        document.getElementById("countdown").innerHTML = "<h3>¡El curso ha terminado!</h3>";
         return;
     }
 
